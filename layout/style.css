@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar{
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 700; 
+    position: absolute;
+    width: 100%;
+    z-index: 1;                        
+}
+
+.navbar-nav, li{
+    transition: transform 0.3s ease;    
+}
+
+.navbar-nav li:hover {
+    background: rgb(255, 12, 12);
+    background: linear-gradient(90deg, rgba(255,241,241,0.06214985994397759) 0%, rgba(236,121,221,0.9585084033613446) 81%);
+    border-radius: 1.08rem;
+}
+
+.btn-outline{
+    background-color: #ED017F;
+    outline-color: beige;
+}
+
+span, i{
+    display: inline-block;
+    font-size: 1.4rem;
+    height: 0;
+} 
+/* landing-page */
+
+.landing-text {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.text-body h1 {
+    font-family: 'Metropolis', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    padding-top: 2rem;
+    margin-left: 10px;
+}
+
+.text-body p {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 1.2rem;
+}
+
+.landing-button a{
+    font-family: 'Metropolis', sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 12px;
+}
+
+.landing-button .btn-color1{
+    background-color: #ED017F;
+}
+
+.landing-button .btn-color2{
+    color: #ED017F;
+    border:2px solid #ED017F;
+}
+
+.landing-medsos{
+    margin-top: 6rem;
+}
+
+/* SME-section */
+.sme-title{
+    font-family:'Metropolis', sans-serif ;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-style{
+    transition: transform 0.3s ease;
+}
+
+.card-style:hover{
+    border: 2px solid rgb(88, 85, 85);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgb(152, 149, 149),
+    0 3px rgb(255, 254, 254);
+}
+
+.card-style img{
+    width: 2rem;
+    padding-bottom: 8px;
+}
+
+/* section-corporate */
+.partners{
+    background-color: #ffbde0;
+}
+.corporate-title{
+    font-family:'Metropolis', sans-serif ;
+    font-weight: 600;
+}
+
+.card-brand{
+    transition: transform 0.3s ease;
+}
+
+.card-brand:hover{
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 0 rgb(152, 149, 149),
+    0 3px rgb(255, 254, 254);
+}
+
+/* service */
+.service{
+    background-color: #ffbde0;
+}
+
+.card-serve img{
+    border-radius: 10px;
+    box-shadow: 2px 4px 8px 0 rgb(152, 149, 149),
+    0 3px rgb(255, 254, 254);
+    transition: transform 0.3s ease-out;
+}
+
+.card-serve img:hover{
+    box-shadow: 2px 4px 8px 0 #ED017F,
+    0 3px rgb(255, 254, 254);
+    transform: translatey(4px);
+}
+
+/* result */
+.card-result .card-body{
+    transition: transform 0.3s ease;
+}
+.card-result .card-body:hover{
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 #ffbde0,
+    0 3px rgb(255, 254, 254);
+    transform: translateX(6px);
+}
+
+/* Letter */
+
+.letter{
+    background-color: #ffbde0;
+    font-family:'Metropolis', sans-serif ;
+}
+
+.newsletter h1{
+    font-weight: 600;
+}
+
+.newsletter p{
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+
+/* footer */
+footer .social-icons a img {
+    width: 24px;
+    height: 24px;
+}
+
+
+@media (min-width:760px) and (max-width:1058px){
+    .navbar{
+        font-weight: 500; 
+        position: relative;
+        width:100% ;                       
+    }
+
+    .landing-text{
+        position: relative;
+        height: 80vh;
+    }
+
+    .landing-medsos{
+        margin-top: 2rem;
+    }
+
+    .btn-color1{
+        margin-bottom:1.5rem ;
+    }
+
+    .contact {
+        justify-content: center;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:460px) and (max-width:760px){
+    .navbar{
+        font-family: 'Metropolis', sans-serif;
+        font-weight: 500; 
+        position: relative; 
+        z-index: 10;                     
+    }
+
+    .landing-text{
+        position: relative;
+        height: 80vh;
+        z-index: -1;
+    }
+    .landing-text{
+        height: 80vh;
+    }
+
+    .landing-medsos{
+        margin-top: 2rem;
+    }
+}
