@@ -16,14 +16,16 @@
 
     <!-- Products -->
     <div class="col-lg-3 col-md-6 mb-4 ">
-      <h5 class="fw-bold">Products</h5>
-      <ul class="list-unstyled ">
-        <li><a href="#" class="text-dark">CSR Activities</a></li>
-        <li><a href="#" class="text-dark">Green Banking</a></li>
-        <li><a href="#" class="text-dark">News</a></li>
-        <li><a href="#" class="text-dark">Ongoing Campaign</a></li>
-        <li><a href="#" class="text-dark">Updates</a></li>
-      </ul>
+      <div class="text-content-footer ms-lg-5">
+        <h5 class="fw-bold">Products</h5>
+        <ul class="list-unstyled ">
+          <li><a href="#" class="text-dark">CSR Activities</a></li>
+          <li><a href="#" class="text-dark">Green Banking</a></li>
+          <li><a href="#" class="text-dark">News</a></li>
+          <li><a href="#" class="text-dark">Ongoing Campaign</a></li>
+          <li><a href="#" class="text-dark">Updates</a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- Get Started -->
@@ -42,14 +44,16 @@
 
     <!-- About -->
     <div class="col-lg-3 col-md-6 mb-4">
-      <h5 class="fw-bold">About</h5>
-      <ul class="list-unstyled ">
-        <li><a href="#" class="text-dark">IPDC at a Glance</a></li>
-        <li><a href="#" class="text-dark">Mission, Vision & Values</a></li>
-        <li><a href="#" class="text-dark">Corporate Governance</a></li>
-        <li><a href="#" class="text-dark">Shareholders</a></li>
-        <li><a href="#" class="text-dark">Investor Relations</a></li>
-      </ul>
+      <div class="text-content-footer ms-lg-5">
+        <h5 class="fw-bold">About</h5>
+        <ul class="list-unstyled ">
+          <li><a href="#" class="text-dark">IPDC at a Glance</a></li>
+          <li><a href="#" class="text-dark">Mission, Vision & Values</a></li>
+          <li><a href="#" class="text-dark">Corporate Governance</a></li>
+          <li><a href="#" class="text-dark">Shareholders</a></li>
+          <li><a href="#" class="text-dark">Investor Relations</a></li>
+        </ul>
+      </div>
     </div>
 
     <!-- Contact -->
