@@ -1,7 +1,7 @@
 <div class="row">
             <div class="col-md-4 offset-1 landing-text">
                 <div class="text-body">
-                    <h1>Chae Your Dream With us</h1>
+                    <h1>Chase Your Dream With us</h1>
                     <p>The harder you work for something, the greater you'll feel when you achive it.</p>
                     <div class="landing-button mt-3 pt-3">
                         <a class="btn btn-color1 me-4" href="#" role="button">APPLY ONLINE</a>
